@@ -4,11 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Examples for LMFCA-Net</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Center the h1 and h2 headings */
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Style the container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Style for the audio-grid */
+        .audio-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        /* Style for the columns */
+        .column {
+            flex: 1;
+            margin: 10px;
+        }
+
+        /* Ensure audio elements take full width */
+        .column audio {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the source codes button */
+        .button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .button a {
+            background-color: #008CBA;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px;
+        }
+
+        .button a:hover {
+            background-color: #006F8E;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Audio examples for LMFCA-Net</h1>
+        <h1>Audio Examples for LMFCA-Net</h1>
+
+        <div class="button">
+            <a href="https://github.com/lmfcanet/LMFCA-Net">Source Codes</a>
+        </div>
 
         <h2>Performance on test set</h2>
         <div class="audio-grid">
@@ -69,4 +124,3 @@
     </div>
 </body>
 </html>
-
